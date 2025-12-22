@@ -80,10 +80,84 @@ padding: 10px 20px;
    background-color: skyblue;
 
 } */
-p {
-   text-align: center;
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+.img{
+   width: 900px;
+   height: 400px;
+
 }
-h5 {
+.button{
+   background-color: blueviolet;
+}
+
+
+
+h1{
    text-align: center;
-   background-color: gray;
+   padding-top: 50px;
+}
+
+.cards{
+   padding-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+   padding: 60px 80px;
+}
+
+.card{
+      border: 1px solid gray;
+      /* padding: 20px 10px; */
+      border-radius: 8px 8px ;
+}
+
+h4{
+   font-size: 1.5rem;
+   padding: 20px 10px;
+}
+
+p{
+   font-size: 1.2rem;
+   padding: 20px 10px;
+}
+
+span{
+   
+   padding: 20px 10px;
+   background-color: rgb(46, 96, 236);
+   color: white;
+   padding: 10px;
+   border: none;
+}
+
+.btn_border{
+   border-top: 1px solid gray;
+   border-radius: 8px 8px 0px 8px ;
+   background-color: rgb(229, 224, 224);
+   padding: 20px 30px;
+   
+}
+.basliq{
+   border: 1px solid black;
+   display: flex;
+   justify-content: space-between;
+   background-color:#21262b;
+   color: aliceblue;
+   
+}
+.list{
+   justify-content: space-between;
+   display: flex;
+   list-style-type: none;
+   gap: 15px;
+   text-decoration: none;
+}
+.listItemlink{
+      text-decoration: none;
+      color: aliceblue;
+
 }
